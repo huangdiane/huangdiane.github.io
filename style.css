@@ -1,3 +1,86 @@
+.smoothie-ingredients-section {
+    width: 100%;
+    font-family: Work Sans, Nunito, sans-serif;
+}
+
+.smoothie-ingredients-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.smoothie-ingredient-item {
+    flex: 0 1 calc(10%);
+    background-size: cover;
+    background-position-x: -10px;
+    height: calc(10vw);
+}
+
+@media screen and (max-width: 960px) {
+    .smoothie-ingredient-item {
+        flex: 0 1 calc(25%);
+        height: calc(20vw);
+    }
+}
+
+.smoothie-ingredient-item h4 {
+    margin: 0;
+    font-size: 0.8em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    font-weight: 700;
+}
+
+.smoothie-ingredient-item-overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+.smoothie-ingredient-item#mango {
+    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/mango.jpg);
+}
+
+.smoothie-ingredient-item#spinach {
+    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/spinach.jpg);
+}
+
+.smoothie-ingredient-item#banana {
+    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/banana.jpg);
+}
+
+.smoothie-ingredient-item#blueberry {
+    background-position: initial;
+    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/blueberry.jpeg);
+}
+
+.smoothie-ingredient-item#kale {
+    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/kale);
+}
+
+.smoothie-ingredient-item#pineapple {
+    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/pineapple.jpg);
+}
+
+.smoothie-ingredient-item#strawberry {
+    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/strawberry.jpg);
+}
+
+.smoothie-ingredient-item#acai {
+    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/acai.jpeg);
+}
+
+.smoothie-ingredient-item#coconut {
+    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/coconut.jpg);
+}
+
+.smoothie-ingredient-item#watermelon {
+    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/watermelon.jpg);
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -194,6 +277,7 @@ li.logo1:hover {
 .mango {
     text-align: center;
     margin-top: 50px;
+    margin-bottom: -30px;
     background-image: url('images/mango.png');
     width: 100%;
     background-repeat: no-repeat;
@@ -238,85 +322,18 @@ li.logo1:hover {
     margin: 0 auto;
 }
 
-.smoothie-ingredients-section {
-    width: 100%;
-    font-family: Work Sans, Nunito, sans-serif;
+.menu-item-title1 {
+    text-align: center;
+    color: black;
 }
 
-.smoothie-ingredients-grid {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.smoothie-ingredient-item {
-    flex: 0 1 calc(10%);
-    background-size: cover;
-    background-position-x: -10px;
-    height: calc(10vw);
-}
-
-@media screen and (max-width: 960px) {
-    .smoothie-ingredient-item {
-        flex: 0 1 calc(25%);
-        height: calc(20vw);
-    }
-}
-
-.smoothie-ingredient-item h4 {
-    margin: 0;
-    font-size: 0.8em;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 1.8px;
-    font-weight: 700;
-}
-
-.smoothie-ingredient-item-overlay {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.30);
-}
-
-.smoothie-ingredient-item#mango {
-    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/mango.jpg);
-}
-
-.smoothie-ingredient-item#spinach {
-    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/spinach.jpg);
-}
-
-.smoothie-ingredient-item#banana {
-    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/banana.jpg);
-}
-
-.smoothie-ingredient-item#blueberry {
-    background-position: initial;
-    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/blueberry.jpeg);
-}
-
-.smoothie-ingredient-item#kale {
-    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/kale);
-}
-
-.smoothie-ingredient-item#pineapple {
-    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/pineapple.jpg);
-}
-
-.smoothie-ingredient-item#strawberry {
-    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/strawberry.jpg);
-}
-
-.smoothie-ingredient-item#acai {
-    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/acai.jpeg);
-}
-
-.smoothie-ingredient-item#coconut {
-    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/coconut.jpg);
-}
-
-.smoothie-ingredient-item#watermelon {
-    background-image: url(https://s3-us-west-2.amazonaws.com/big-orange/watermelon.jpg);
+.menu-bar2 {
+    color: black;
+    background-color: black;
+    width: 300px;
+    height: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
 }
