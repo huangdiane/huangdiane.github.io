@@ -1,184 +1,188 @@
-        a {
-        text-decoration: none;
-        color: inherit;
-    }
-    
-    a:hover {
-        color: inherit;
-        text-decoration: none;
-    }
-    
-    body {
-        font-family: 'Nunito', sans-serif;
-        margin: 0;
-    }
-    
-    .header {
-        width: 100%;
-        height: 60px;
-        position: absolute;
-    }
-    
-    .header-list {
-        list-style: none;
-        display: flex;
-        height: 100%;
-        margin: 0;
-        align-items: center;
-        position: relative;
-    }
-    
-    .header-list li {
-        display: inline;
-        margin-left: 20px;
-        margin-right: 20px;
-        color: white;
-        transition: all 0.3s ease;
-    }
-    
-    .header-list li:hover {
-        color: darkorange;
-    }
-    
-    .contact-item {
-        position: absolute;
-        right: 30px;
-    }
-    
-    li.logo {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        padding-left: 20px;
-        padding-right: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        display: inline-flex;
-        align-items: center;
-        background-color: white;
-        height: 120%;
-    }
-    
-    li.logo:hover {
-        transform: translateX(-50%) translateY(-45%);
-    }
-    
-    .logo img {
-        height: 40px;
-    }
-    
-    .banner {
-        /*background-image: url('banner.png');*/
-        height: 100%;
-        background-size: cover;
-    }
-    
-    .banner-overlay {
-        background-color: rgba(0, 0, 0, 0.1);
-        height: 100%;
-    }
-    
-    .contactUs {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .textbox {
-        text-align: center;
-        color: white;
-        background-color: darkorange;
-        margin-top: -10px;
-    }
-    
-    .textbox1 {
-        text-align: center;
-        font-weight: lighter;
-    }
-    
-    .textbox1:hover {
-        color: darkorange;
-    }
-    
-    .textbox2 {
-        text-align: center;
-        color: darkorange;
-    }
-    
-    .header-list1 {
-        list-style: none;
-        display: flex;
-        height: 100%;
-        margin: 0;
-        align-items: center;
-        position: relative;
-    }
-    
-    .header-list1 li {
-        display: inline;
-        margin-left: 40px;
-        margin-right: 40px;
-        color: darkorange;
-        transition: all 0.3s ease;
-    }
-    
-    .header-list1 li:hover {
-        color: black;
-    }
-    
-    li.logo1 {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        padding-left: 20px;
-        padding-right: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        display: inline-flex;
-        align-items: center;
-        background-color: navajowhite;
-        height: 120%;
-    }
-    
-    li.logo1:hover {
-        transform: translateX(-50%) translateY(-45%);
-    }
-    
-    .logo1 img {
-        height: 40px;
-    }
-    
-    .bbt {
-        margin-top: 70px;
-        display: flex;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url('images/bbt.png');
-    }
-    
-    .bbt-overlay {
-        width: 50%;
-        margin: 0 auto;
-    }
-    /* NEW!! LOVE YOU!! */
-    
-    .menu-item-content {
-        text-align: center;
-    }
-    
-    .menu-item-title {
-        text-align: center;
-        color: darkorange;
-    }
-    
-    .menu-bar {
-        color: darkorange;
-        background-color: darkorange;
-        width: 300px;
-        height: 5px;
-        text-align: center;
-        margin-left: 200px;
-        margin-top: -20px;
-        margin-bottom: 40px;
+                        a {
+                        text-decoration: none;
+                        color: inherit;
+                    }
+                    
+                    a:hover {
+                        color: inherit;
+                        text-decoration: none;
+                    }
+                    
+                    body {
+                        font-family: 'Nunito', sans-serif;
+                        margin: 0;
+                    }
+                    
+                    .header {
+                        width: 100%;
+                        height: 60px;
+                        position: absolute;
+                    }
+                    
+                    .header-list {
+                        list-style: none;
+                        display: flex;
+                        height: 100%;
+                        margin: 0;
+                        align-items: center;
+                        position: relative;
+                    }
+                    
+                    .header-list li {
+                        display: inline;
+                        margin-left: 20px;
+                        margin-right: 20px;
+                        color: white;
+                        transition: all 0.3s ease;
+                    }
+                    
+                    .header-list li:hover {
+                        color: darkorange;
+                    }
+                    
+                    .contact-item {
+                        position: absolute;
+                        right: 30px;
+                    }
+                    
+                    li.logo {
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translateX(-50%) translateY(-50%);
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        border-bottom-left-radius: 20px;
+                        border-bottom-right-radius: 20px;
+                        display: inline-flex;
+                        align-items: center;
+                        background-color: white;
+                        height: 120%;
+                    }
+                    
+                    li.logo:hover {
+                        transform: translateX(-50%) translateY(-45%);
+                    }
+                    
+                    .logo img {
+                        height: 40px;
+                    }
+                    
+                    .banner {
+                        /*background-image: url('banner.png');*/
+                        height: 100%;
+                        background-size: cover;
+                    }
+                    
+                    .banner-overlay {
+                        background-color: rgba(0, 0, 0, 0.1);
+                        height: 100%;
+                    }
+                    
+                    .contactUs {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .textbox {
+                        text-align: center;
+                        color: white;
+                        background-color: darkorange;
+                        margin-top: -10px;
+                    }
+                    
+                    .textbox1 {
+                        text-align: center;
+                        font-weight: lighter;
+                    }
+                    
+                    .textbox1:hover {
+                        color: darkorange;
+                    }
+                    
+                    .textbox2 {
+                        text-align: center;
+                        color: darkorange;
+                    }
+                    
+                    .header-list1 {
+                        list-style: none;
+                        display: flex;
+                        height: 100%;
+                        margin: 0;
+                        align-items: center;
+                        position: relative;
+                    }
+                    
+                    .header-list1 li {
+                        display: inline;
+                        margin-left: 20px;
+                        margin-right: 20px;
+                        color: darkorange;
+                        transition: all 0.3s ease;
+                    }
+                    
+                    .header-list1 li:hover {
+                        color: black;
+                    }
+                    
+                    .heads {
+                        margin-left: 40px;
+                    }
+                    
+                    li.logo1 {
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translateX(-50%) translateY(-50%);
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        border-bottom-left-radius: 20px;
+                        border-bottom-right-radius: 20px;
+                        display: inline-flex;
+                        align-items: center;
+                        background-color: navajowhite;
+                        height: 120%;
+                    }
+                    
+                    li.logo1:hover {
+                        transform: translateX(-50%) translateY(-45%);
+                    }
+                    
+                    .logo1 img {
+                        height: 40px;
+                    }
+                    
+                    .bbt {
+                        margin-top: 70px;
+                        display: flex;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-image: url('images/bbt.png');
+                    }
+                    
+                    .bbt-overlay {
+                        width: 50%;
+                        margin: 0 auto;
+                    }
+                    /* NEW!! LOVE YOU!! */
+                    
+                    .menu-item-content {
+                        text-align: center;
+                    }
+                    
+                    .menu-item-title {
+                        text-align: center;
+                        color: darkorange;
+                    }
+                    
+                    .menu-bar {
+                        color: darkorange;
+                        background-color: darkorange;
+                        width: 300px;
+                        height: 5px;
+                        text-align: center;
+                        margin-left: 200px;
+                        margin-top: -20px;
+                        margin-bottom: 40px;
