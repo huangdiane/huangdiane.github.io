@@ -183,7 +183,8 @@
                  width: 300px;
                  height: 5px;
                  text-align: center;
-                 margin-left: 200px;
+                 margin-left: auto;
+                 margin-right: auto;
                  margin-top: -20px;
                  margin-bottom: 40px;
              }
@@ -205,7 +206,8 @@
                  width: 300px;
                  height: 5px;
                  text-align: center;
-                 margin-left: 200px;
+                 margin-left: auto;
+                 margin-right: auto;
                  margin-top: -20px;
              }
              
@@ -218,6 +220,19 @@
              }
              
              .smoothie-overlay {
+                 width: 50%;
+                 margin: 0 auto;
+             }
+             
+             .juice {
+                 margin-top: 50px;
+                 display: flex;
+                 background-size: cover;
+                 background-repeat: no-repeat;
+                 background-image: url('images/juice.png');
+             }
+             
+             .juice-overlay {
                  width: 50%;
                  margin: 0 auto;
              }
