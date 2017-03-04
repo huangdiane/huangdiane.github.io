@@ -192,6 +192,11 @@
                  text-align: center;
                  margin-top: 50px;
                  margin-bottom: -30px;
+                 background-image: url('images/mango.png');
+                 width: 100%;
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 background-position: bottom;
              }
              
              .menu-bar1 {
@@ -200,12 +205,12 @@
                  width: 300px;
                  height: 5px;
                  text-align: center;
-                 margin-left: 560px;
+                 margin-left: 200px;
                  margin-top: -20px;
              }
              
              .smoothie {
-                 margin-top: 70px;
+                 margin-top: 50px;
                  display: flex;
                  background-size: cover;
                  background-repeat: no-repeat;
