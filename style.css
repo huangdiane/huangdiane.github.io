@@ -31,13 +31,18 @@
     font-weight: 700;
 }
 
+.smoothie-ingredient-item.active .smoothie-ingredient-item-overlay {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
 .smoothie-ingredient-item-overlay {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
+    transition: all 0.3s ease;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.30);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .smoothie-ingredient-item#mango {
@@ -277,7 +282,6 @@ li.logo1:hover {
 .mango {
     text-align: center;
     margin-top: 50px;
-    margin-bottom: -30px;
     background-image: url('images/mango.png');
     width: 100%;
     background-repeat: no-repeat;
@@ -637,4 +641,98 @@ li.logo1:hover {
     font-family: Work Sans, sans-serif;
     font-weight: 400;
     font-style: italic;
+}
+
+.column {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.column .menu-title,
+.column .menu-content {
+    padding: 40px 20px 20px 20px;
+}
+
+.menu-title {
+    flex: 1;
+}
+
+.menu-content {
+    flex: 3;
+}
+
+.menu-title h4 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.divider {
+    height: 4px;
+    width: 100px;
+    margin: 10px 0 20px 0;
+    background: #000;
+}
+
+.menu-title span {
+    font-family: Work Sans;
+}
+
+.pricing {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.pricing-first {
+    margin-top: 20px;
+}
+
+.pricing .bold {
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.smoothie-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.smoothie-list li {
+    transition: all 0.3s ease;
+    list-style: none;
+    cursor: pointer;
+    padding: 20px 0;
+    flex: 0 1 50%;
+}
+
+.smoothie-list li:hover {
+    transform: translateX(10px);
+}
+
+.smoothie-list li h5 {
+    margin: 0;
+    font-family: Work Sans;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.color-circle {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: -150px;
+    top: 75px;
+    border-radius: 50%;
+    z-index: -1;
+    background: darkorange;
 }
