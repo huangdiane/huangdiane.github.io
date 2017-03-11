@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 .smoothie-ingredients-section {
     width: 100%;
     font-family: Work Sans, Nunito, sans-serif;
@@ -338,277 +337,298 @@ li.logo1:hover {
     margin-right: auto;
     margin-top: -20px;
 }
-=======
-             a {
-                 text-decoration: none;
-                 color: inherit;
-             }
-             
-             a:hover {
-                 color: inherit;
-                 text-decoration: none;
-             }
-             
-             body {
-                 font-family: 'Nunito', sans-serif;
-                 margin: 0;
-             }
-             
-             .header {
-                 width: 100%;
-                 height: 60px;
-                 position: absolute;
-             }
-             
-             .header-list {
-                 list-style: none;
-                 display: flex;
-                 height: 100%;
-                 margin: 0;
-                 align-items: center;
-                 position: relative;
-             }
-             
-             .header-list li {
-                 display: inline;
-                 margin-left: 20px;
-                 margin-right: 20px;
-                 color: white;
-                 transition: all 0.3s ease;
-             }
-             
-             .header-list li:hover {
-                 color: darkorange;
-             }
-             
-             .contact-item {
-                 position: absolute;
-                 right: 30px;
-             }
-             
-             li.logo {
-                 position: absolute;
-                 left: 50%;
-                 top: 50%;
-                 transform: translateX(-50%) translateY(-50%);
-                 padding-left: 20px;
-                 padding-right: 20px;
-                 border-bottom-left-radius: 20px;
-                 border-bottom-right-radius: 20px;
-                 display: inline-flex;
-                 align-items: center;
-                 background-color: white;
-                 height: 120%;
-             }
-             
-             li.logo:hover {
-                 transform: translateX(-50%) translateY(-45%);
-             }
-             
-             .logo img {
-                 height: 40px;
-             }
-             
-             .banner {
-                 /*background-image: url('banner.png');*/
-                 height: 100%;
-                 background-size: cover;
-             }
-             
-             .banner-overlay {
-                 background-color: rgba(0, 0, 0, 0.1);
-                 height: 100%;
-             }
-             
-             .contactUs {
-                 display: flex;
-                 justify-content: center;
-                 align-items: center;
-             }
-             
-             .textbox {
-                 text-align: center;
-                 color: white;
-                 background-color: darkorange;
-                 margin-top: -10px;
-             }
-             
-             .textbox1 {
-                 text-align: center;
-                 font-weight: lighter;
-             }
-             
-             .textbox1:hover {
-                 color: darkorange;
-             }
-             
-             .textbox2 {
-                 text-align: center;
-                 color: darkorange;
-             }
-             
-             .header-list1 {
-                 list-style: none;
-                 display: flex;
-                 height: 100%;
-                 margin: 0;
-                 align-items: center;
-                 position: relative;
-             }
-             
-             .header-list1 li {
-                 display: inline;
-                 margin-left: 20px;
-                 margin-right: 20px;
-                 color: darkorange;
-                 transition: all 0.3s ease;
-             }
-             
-             .header-list1 li:hover {
-                 color: black;
-             }
-             
-             .heads {
-                 margin-left: 40px;
-             }
-             
-             li.logo1 {
-                 position: absolute;
-                 left: 50%;
-                 top: 50%;
-                 transform: translateX(-50%) translateY(-50%);
-                 padding-left: 20px;
-                 padding-right: 20px;
-                 border-bottom-left-radius: 20px;
-                 border-bottom-right-radius: 20px;
-                 display: inline-flex;
-                 align-items: center;
-                 background-color: navajowhite;
-                 height: 120%;
-             }
-             
-             li.logo1:hover {
-                 transform: translateX(-50%) translateY(-45%);
-             }
-             
-             .logo1 img {
-                 height: 40px;
-             }
-             
-             .bbt {
-                 margin-top: 70px;
-                 display: flex;
-                 background-size: cover;
-                 background-repeat: no-repeat;
-                 background-image: url('images/bbt.png');
-             }
-             
-             .bbt-overlay {
-                 width: 50%;
-                 margin: 0 auto;
-             }
-             /* NEW!! LOVE YOU!! */
-             
-             .menu-item-content {
-                 text-align: center;
-             }
-             
-             .menu-item-title {
-                 text-align: center;
-                 color: darkorange;
-             }
-             
-             .menu-bar {
-                 color: darkorange;
-                 background-color: darkorange;
-                 width: 300px;
-                 height: 5px;
-                 text-align: center;
-                 margin-left: auto;
-                 margin-right: auto;
-                 margin-top: -20px;
-                 margin-bottom: 40px;
-             }
-             
-             .mango {
-                 text-align: center;
-                 margin-top: 50px;
-                 margin-bottom: -30px;
-                 background-image: url('images/mango.png');
-                 width: 100%;
-                 background-repeat: no-repeat;
-                 background-size: cover;
-                 background-position: bottom;
-             }
-             
-             .menu-bar1 {
-                 color: darkorange;
-                 background-color: darkorange;
-                 width: 300px;
-                 height: 5px;
-                 text-align: center;
-                 margin-left: auto;
-                 margin-right: auto;
-                 margin-top: -20px;
-             }
-             
-             .smoothie {
-                 margin-top: 50px;
-                 display: flex;
-                 background-size: cover;
-                 background-repeat: no-repeat;
-                 background-image: url('images/smoothie.png');
-             }
-             
-             .smoothie-overlay {
-                 width: 50%;
-                 margin: 0 auto;
-             }
-             
-             .juice {
-                 margin-top: 50px;
-                 display: flex;
-                 background-size: cover;
-                 background-repeat: no-repeat;
-                 background-image: url('images/juice.png');
-             }
-             
-             .juice-overlay {
-                 width: 50%;
-                 margin: 0 auto;
-             }
-             
-             .menu-item-title1 {
-                 text-align: center;
-                 color: black;
-             }
-             
-             .menu-bar2 {
-                 color: black;
-                 background-color: black;
-                 width: 300px;
-                 height: 5px;
-                 text-align: center;
-                 margin-left: auto;
-                 margin-right: auto;
-                 margin-top: -20px;
-             }
-             
-             .store {
-                 margin-top: 30px;
-                 background-image: url('images/store.jpg');
-                 background-size: cover;
-                 height: auto;
-                 background-repeat: no-repeat;
-             }
-             
-             .store-overlay {
-                 background: rgba(255, 140, 0, 0.4);
-                 width: 50%;
-                 height: auto;
-                 color: floralwhite;
-                 text-align: center;
-                 padding-top: 50%;
-                 padding-bottom: 50%;
-             }
->>>>>>> Stashed changes
+
+=======a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    margin: 0;
+    align-items: center;
+    position: relative;
+}
+
+.header-list li {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.header-list li:hover {
+    color: darkorange;
+}
+
+.contact-item {
+    position: absolute;
+    right: 30px;
+}
+
+li.logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    background-color: white;
+    height: 120%;
+}
+
+li.logo:hover {
+    transform: translateX(-50%) translateY(-45%);
+}
+
+.logo img {
+    height: 40px;
+}
+
+.banner {
+    /*background-image: url('banner.png');*/
+    height: 100%;
+    background-size: cover;
+}
+
+.banner-overlay {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.contactUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox {
+    text-align: center;
+    color: white;
+    background-color: darkorange;
+    margin-top: -10px;
+}
+
+.textbox1 {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.textbox1:hover {
+    color: darkorange;
+}
+
+.textbox2 {
+    text-align: center;
+    color: darkorange;
+}
+
+.header-list1 {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    margin: 0;
+    align-items: center;
+    position: relative;
+}
+
+.header-list1 li {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: darkorange;
+    transition: all 0.3s ease;
+}
+
+.header-list1 li:hover {
+    color: black;
+}
+
+.heads {
+    margin-left: 40px;
+}
+
+li.logo1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    background-color: navajowhite;
+    height: 120%;
+}
+
+li.logo1:hover {
+    transform: translateX(-50%) translateY(-45%);
+}
+
+.logo1 img {
+    height: 40px;
+}
+
+.bbt {
+    margin-top: 70px;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('images/bbt.png');
+}
+
+.bbt-overlay {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/* NEW!! LOVE YOU!! */
+
+.menu-item-content {
+    text-align: center;
+}
+
+.menu-item-title {
+    text-align: center;
+    color: darkorange;
+}
+
+.menu-bar {
+    color: darkorange;
+    background-color: darkorange;
+    width: 300px;
+    height: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+.mango {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -30px;
+    background-image: url('images/mango.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.menu-bar1 {
+    color: darkorange;
+    background-color: darkorange;
+    width: 300px;
+    height: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+}
+
+.smoothie {
+    margin-top: 50px;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('images/smoothie.png');
+}
+
+.smoothie-overlay {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.juice {
+    margin-top: 50px;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('images/juice.png');
+}
+
+.juice-overlay {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.menu-item-title1 {
+    text-align: center;
+    color: black;
+}
+
+.menu-bar2 {
+    color: black;
+    background-color: black;
+    width: 300px;
+    height: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+}
+
+.store {
+    margin-top: 30px;
+    background-image: url('images/store.jpg');
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+.store-overlay {
+    background: rgba(255, 140, 0, 0.4);
+    width: 50%;
+    height: auto;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+
+.contact-container {
+    margin-top: 30px;
+    background-image: url('images/store.jpg');
+    color: #fff;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-overlay {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    background-color: rgba(255, 140, 0, 0.4);
+}
