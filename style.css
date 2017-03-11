@@ -632,3 +632,9 @@ li.logo1:hover {
     max-width: 700px;
     background-color: rgba(255, 140, 0, 0.4);
 }
+
+.email-link h4 {
+    font-family: Work Sans, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
