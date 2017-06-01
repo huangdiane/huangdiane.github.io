@@ -47,7 +47,7 @@ $(document).ready(function() {
     var selectedMenuItem = false;
 
     Object.keys(menuItem).forEach(function (key) {
-        $('p[data-item="' + key + '"]').on('click', function() {
+        $('li[data-item="' + key + '"]').on('click', function() {
             clearSelectedIngredients();
             selectIngredients(key)
         });
