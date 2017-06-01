@@ -632,7 +632,7 @@ li.logo:hover {
 
 .contact-container {
     margin-top: 30px;
-    background-image: url('images/store.jpg');
+    /*background-image: url('images/store.jpg');*/
     color: #fff;
     height: 80vh;
     background-repeat: no-repeat;
@@ -642,11 +642,10 @@ li.logo:hover {
 
 .contact-overlay {
     height: 100%;
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 700px;
     background-color: rgba(255, 140, 0, 0.4);
 }
 
